@@ -28,6 +28,7 @@
         });
     }, observerOptions);
 
+    // Passing each of section to the observer
     sections.forEach(section => {
         observer.observe(section);
     });
